@@ -1,15 +1,17 @@
 body {
   margin: 0;
+  background: #ffdfba;
 }
 
 .wrapper {
   margin: auto;
-  width: 80%;
+  width: 79%;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 123px;
 }
 
 .logo {
@@ -47,7 +49,7 @@ body {
 
 .menu__item {
   position: relative;
-  margin-right: 26px;
+  margin-right: 25px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -97,4 +99,38 @@ body {
 
 .menu__item:last-child {
   margin-right: 0;
+}
+
+.main {
+  padding: 80px 63% 181px 0;
+  background: bottom 50px right no-repeat url(img/mainImg.svg);
+}
+
+.main__title {
+  margin: 0 0 36px 0;
+  font: 66px/88px pt_serifbold, arial, helvetica, sans-serif;
+}
+
+.main__title-text_highlight {
+  background: #ECF3FF;
+}
+
+.main__subtitle {
+  margin: 0 0 38px 0;
+  font: 21px/26px Roboto, arial, helvetica, sans-serif;
+}
+
+.main__button {
+  display: inline-block;
+  padding: 20px 22px;
+  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background: #0056EC;
+  border-radius: 4px;
+  transition: opasity .5s;
+}
+
+.main__button:hover {
+  opacity: .5;
 }
