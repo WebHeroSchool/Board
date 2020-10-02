@@ -558,6 +558,10 @@
     text-transform: lowercase;
   }
 
+  .menu__item_active::after {
+    display: none;
+  }
+
   .main {
     padding: 78% 0 0 0;
     background: top center no-repeat url(img/mainImg-768.svg);
