@@ -11,6 +11,7 @@
   .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 123px;
   }
 
@@ -44,7 +45,6 @@
 
   .menu {
     display: flex;
-    align-items: center;
   }
 
   .menu__item {
@@ -150,6 +150,7 @@
   .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 55px;
   }
 
@@ -184,7 +185,6 @@
   .menu {
     display: flex;
     padding-top: 10px;
-    align-items: center;
   }
 
   .menu__item {
@@ -289,6 +289,7 @@
   .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 19px;
   }
 
@@ -322,7 +323,6 @@
 
   .menu {
     display: flex;
-    align-items: center;
   }
 
   .menu__item {
@@ -546,6 +546,7 @@
 
   .menu {
     display: flex;
+    align-items: center;
     flex-direction: column;
   }
 
